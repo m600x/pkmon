@@ -1,0 +1,14 @@
+[Unit]
+Description=PKmon
+After=network-online.target
+[Service]
+Type=simple
+User=root
+Group=root
+UMask=007
+ExecStart=/root/work/bin/pkchu
+Restart=on-failure
+# Configures the time to wait before service is stopped forcefully.
+TimeoutStopSec=300
+[Install]
+WantedBy=multi-user.target
