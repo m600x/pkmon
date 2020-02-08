@@ -1,7 +1,6 @@
 # pkmon
 
-Send Slack message to a channel in random interval for a random time at
-specific hours avoiding spamming at 3AM...
+Send Slack message to a channel in random interval for a random time at specific hours avoiding spamming at 3AM...
 
 Default settings:
 - Between 9AM to 7PM
@@ -18,3 +17,10 @@ cp pkmon.service /etc/systemd/system/pkmon.service
 systemctl enable pkmon
 systemctl start pkmon
 ```
+
+##  🎖 Achievement
+
+- Took down Balance app, a hated bot that has been up for three years in 42 slack in less than a day.
+- Made the creator leave the workspace.
+
+If you read me pk, I've nothing against you personally. I just don't like being insulted.
